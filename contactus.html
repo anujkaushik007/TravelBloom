@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./CSS/travel.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <nav><h1>TravelBloom</h1>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="contactus.html">Contact Us</a>
+    </div>
+    <div class="search">
+      <input type="text" id="conditionInput" placeholder="Enter a destination or keyword">
+      <button id='btnSearch'>Search</button>
+      <button id='btnClear'>Clear</button>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="aboutus-content contextContentColor">
+      <div>
+        <h1 class="aboutUsTitle textCapital">Contact Us</h1> <br> <br><br>
+        Get in touch
+      </div>
+        <form id="contactForm" class="aboutUsSummary contactUsSummary">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btnSubmit" type="submit" onclick="thankyou()">Submit</button>
+        </form>
+    </div>
+</div>
+  
+  <script>
+    function thankyou(){
+        alert('Thank you for contacting us!')
+    }
+  </script>
+</body>
+</html>

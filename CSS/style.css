@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+
+.menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.search button {
+    cursor: pointer;
+}
+
+.homepage-content {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+
+.aboutus-content section, .contactus-content form {
+    margin-bottom: 40px;
+    color: white;
+    padding: 20px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    background-image: url(../Images/background.webp);
+    background-size: cover;
+    display: flex;
+    min-height: calc(100vh - 87px);
+    justify-content: space-between;
+}
+.mainContainer {
+    padding: 150px;
+    color: white;
+    width: 35%;
+}
+
+.resultContainer {
+    margin: 50px;
+    width: 30%;
+}
+
+.search input {
+background-color: white;
+border: none;
+margin: 5px;
+width: 250px;
+border-radius: 50px;
+padding: 10px 20px;
+}
+
+#childContainer{
+padding-top: 50px;
+}
+
+#btnBook{
+padding: 10px 30px;
+}
+
+h1{
+font-weight: 900;
+}
+
+#report,#result {
+padding: 10px;
+word-wrap: break-word;
+}
+
+#result{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 100%;
+    height: auto;
+  }
+
+  .aboutus-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1.aboutUsTitle {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.textCapital{
+    text-transform: uppercase;
+}
+
+.aboutUsSummary {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ourTeam{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 7px 15px;
+    background-color: #006a81;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  .ourTeamBtn{
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contextContentColor {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin: 150px auto;
+}
+
+#contactForm label{
+    width: 100%;
+    display: block;
+}
+
+#contactForm input, #contactForm textarea{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.contactUsSummary{
+    width: 50%;
+}
+
+.btnSubmit{
+    width: 100%;
+}
